@@ -1,0 +1,72 @@
+#satauri {
+    font-size: 100px;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+
+#img1 {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    padding-left: 200px;
+}
+
+
+table {
+
+border: 2px dashed black;
+}
+
+
+tr {
+
+border: 1px dashed red;
+}
+
+
+th {
+
+border: 1px dashed red;
+}
+
+
+#cxrilisat {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#sax {
+    background-color: rgb(99, 99, 211);
+    text-align: center;
+}
+
+
+#gvar {
+    background-color: rgb(81, 147, 197);
+    text-align: center;
+}
+
+
+#tab {
+    padding-left: 550px;
+}
+
+
+#par2 {
+    text-align: center;
+}
+
+
+#shep {
+    text-align: center;
+}
+
+
+button {
+    border-radius: 20%;
+    background-color: rgb(50, 50, 124);
+    text-align: center;
+    color: white;
+}
