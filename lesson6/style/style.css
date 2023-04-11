@@ -1,0 +1,161 @@
+#satauri {
+    text-align: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(189,209,232,0.9753151260504201) 100%);    font-size: 70px;
+    src: url("/style/font/Resoterose-K7nel.ttf");
+    color: rgb(5, 94, 94);
+}
+
+
+.navmenu {
+
+    background: radial-gradient(circle, rgba(218,58,128,1) 0%, rgba(35,74,120,0.9921218487394958) 100%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 900px;
+}
+
+.navmenu a {
+    color: black;
+    text-decoration: dashed;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.navmenumain {
+    display: flex;
+    justify-content: center;
+}
+
+.navmenu a:hover {
+
+    color: rgb(232, 232, 242);
+    background: linear-gradient(90deg, rgba(163,162,182,1) 0%, rgba(3,3,72,1) 35%, rgba(29,42,44,1) 100%);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+#sur2 {
+    margin-left: 20px;
+    
+}
+
+#sur3 {
+    margin-left: 20px;
+}
+
+.par {
+    text-align: center;
+    font-family: f;
+    color: rgb(38, 112, 88);
+    font-size: 20px;
+   
+}
+
+@font-face {
+    font-family: f;
+    src: url(/style/font/3d_unicode.ttf);
+}
+
+table {
+    border: 2px dashed cornflowerblue;
+ text-align: center;
+    
+
+}
+
+tr {
+    border: 2px solid cornflowerblue;
+    text-align: center;
+    
+}
+
+th {
+    border: 2px solid cornflowerblue;
+    text-align: center;
+}
+
+.maintab {
+    display: flex;
+    justify-content: center;
+}
+
+.line1:hover {
+    background-color: rgb(235, 198, 198);
+    color: aquamarine;
+}
+
+.line2:hover {
+    color: blue;
+    background-color: rgb(180, 128, 226);
+}
+
+.line3:active {
+background-color: brown;
+}
+
+.line3:hover {
+    color: blue;
+}
+
+
+body {
+background: linear-gradient(90deg, rgba(205,203,236,1) 0%, rgba(179,227,226,1) 35%, rgba(153,207,215,1) 100%);
+}
+
+
+.shep input {
+    background-color: rgb(216, 157, 192);
+    border-radius: 15px;
+}
+
+.shep input::placeholder {
+    color:blue
+
+}
+
+
+.shep input:hover::placeholder {
+    color: brown;
+}
+
+
+.shep input:focus {
+    color: rgb(226, 78, 110);
+}
+
+
+.shep input:visited {
+color: black;
+}
+
+.shep button {
+    border-radius:14% ;
+    background-color: rgb(120, 120, 205);
+    text-align: center;
+    
+}
+
+.shep button:hover {
+    background-color: rgb(65, 127, 160);
+}
+
+
+.shep button:active {
+    background-color: aquamarine;
+}
+
+
+.cont {
+    text-align: center;
+}
