@@ -1,0 +1,111 @@
+h3 {
+    text-align: center;
+}
+
+#image {
+    position: relative;
+    /* top: 50px;
+    left: 50px;
+    right: 50px; */
+    right: 50px;
+    bottom: 25px;
+    
+}
+/* ამ შემთხვევაში სურათის მოძრაობა ზევით ქვევით პოზითიიონი  position: relative;*/
+
+
+.image1 {
+    display: flex;
+    justify-content: center;
+}
+
+#staticexample1 { 
+    width: 300px;
+    height: 150px;
+    
+    top: 50px;
+
+}
+
+
+#staticexample2 { 
+    width: 300px;
+    height: 150px;
+    position: relative;
+
+}
+
+
+
+#staticexample3 { 
+    width: 300px;
+    height: 150px;
+    position: static;
+
+}
+
+.fixedposition {
+    position: fixed;
+    top: 50px;
+}
+/* საიტი რომ  ოძრაობს იკონი გაჩერებულია */
+
+#img1 {
+    display: block;
+}
+
+#img2 {
+    display: block;
+}
+
+
+#img3 {
+    display: block;
+}
+
+
+nav a {
+    text-decoration: none;
+
+    margin-right: 15px;
+
+    color: black;
+
+    
+}
+
+nav {
+    background-color: rgba(73, 248, 190, 0.997);
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    position: sticky;
+    top: 10px;
+}
+
+nav :hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+
+.absolutexample  {
+
+    padding: 80px;
+
+    background-color: blanchedalmond;
+
+    position: absolute;
+}
+
+
+.abc {
+
+
+}
