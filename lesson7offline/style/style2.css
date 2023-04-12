@@ -1,0 +1,31 @@
+.transformproperti  {
+    margin: 20px;
+}
+
+#img1 {
+    margin: 50px;
+
+    transform: rotate(20deg);
+}
+
+
+#img2 {
+    margin: 50px;
+
+    /* transform: skewx(20deg); */
+
+    transform: skewY(20deg);
+}
+
+
+
+
+#img3 {
+    margin: 50px;
+
+    /* transform: scale(1.5, 1.5); სიგრძე სიმაღლე ერთად. x y ცალცალკე */
+
+    transform: scaleX(1.5);
+
+    transform: scaleY(1.5);
+}
