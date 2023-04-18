@@ -1,0 +1,109 @@
+.main {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+
+    
+   
+}
+
+.main a {
+    margin-right: 50px;
+    
+}
+
+.pan {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main a:hover  {
+    color: aqua;
+    border-radius: 15px;
+    background-color: brown;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.par {
+    text-align: center;
+    background-color: aqua;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+table {
+    border: solid rgb(15, 23, 38);
+    text-align: center;
+    background-color: blue;
+}
+
+
+tr {
+    border: solid rgb(27, 35, 50);
+    text-align: center;
+}
+
+
+th {
+    border: solid rgb(26, 34, 50);
+    text-align: center;
+}
+
+th:hover {
+    color: brown;
+    background-color: black;
+}
+
+#img1 {
+    display: block;
+}
+
+#img2 {
+    display: block;
+}
+
+#img3 {
+    display: block;
+}
+
+
+.soc {
+    position: fixed;
+    top: 20px;
+}
+
+.ni {
+    border: solid black;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    text-align: center;
+    
+}
+
+.nik {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.ni input {
+    width: 150px;
+    height: 70px;
+
+}
+
+body {
+    background-color: aquamarine;
+}
