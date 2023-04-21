@@ -1,0 +1,92 @@
+.conteiner input {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid wheat ;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'open sans', sans-serif ;
+}
+
+
+
+.conteiner button {
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(28, 116, 87);
+    border: 0;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'open sans', sans-serif ;
+    
+
+
+}
+
+
+
+.conteiner button:hover {
+    background: cornflowerblue;
+    color: rgb(43, 43, 101);
+    /* naweris peris shecvla marto uAMISOD SEICVLEBA MTLIANI KNOBKIS FER */
+    transition: background 3s, color 2s;
+}
+
+
+
+.timingfuction {
+width: 100px;
+height: 100px;
+background: greenyellow;
+transition: width 2s;
+}
+
+
+
+.timingfuction:hover{
+    width: 500px;
+}
+
+
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-items: start; */
+    align-items: end;
+    /* align items wevs zevit qvevit */
+    height: 200px;
+    background-color: aqua;
+}
+
+
+
+
+#linerefect {
+    transition-timing-function: linear;
+}  
+
+
+#easeeffect {
+    transition-timing-function: ease;
+}
+
+
+#easeineffect {
+    transition-timing-function:ease-in;
+}
+
+
+#easeouteffect {
+    transition-timing-function:ease-out;
+}
+
+
+
+#easeinouteffect {
+    transition-timing-function:ease-in-out;
+}
