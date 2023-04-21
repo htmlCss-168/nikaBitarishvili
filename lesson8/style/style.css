@@ -1,0 +1,253 @@
+.satauri {
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+    border-radius: 10%;
+    text-shadow: 2px 2px rgb(16, 16, 16);
+    width: 300px;
+    height: 70px;
+    
+}
+
+.satauri:hover {
+    background-color: black;
+    transition: background 3s, color ;
+}
+
+.satauri1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.img1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.img1 img {
+    border-radius: 10%;
+}
+
+
+.img1 img:hover {
+    width: 700px;
+    height: 400px;
+    transform: rotate(20deg);
+}
+
+
+.img2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.img2 img {
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.img2 img:hover{
+    width: 400px;
+    height: 4oopx;
+    transform: rotate(20deg
+    );
+}
+
+
+
+
+.striqoni {
+    text-align: center;
+    animation-name: mymove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+    color: red;
+}
+
+
+
+@keyframes mymove {
+    0%   {right: 0px;  width: 50%;}
+    100% {left:  200px;  width: 100%;}
+  }
+  
+
+
+
+  body {
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(70,252,247,0.9276960784313726) 100%);
+  }
+
+
+
+  .MyAdress {
+    text-align: center;
+    color: rgb(228, 45, 45);
+  }
+
+
+  .MyAdress img:hover {
+    width: 150px;
+  }
+
+  .MyAdress h4:hover{
+    color: black;
+    font-size: large;
+  }
+
+
+
+  .table1 th {
+    border: solid rgb(182, 90, 14);
+    background-color: brown;
+  }
+
+  .table1 td {
+    border: solid black;
+    padding: 10px;
+  }
+
+  .table1 table {
+    border: solid;
+  }
+
+
+
+  .table1 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+
+
+
+  .table1 th:hover{
+    background-color: black;
+    color: brown;
+    font-size: large;
+  }
+
+
+
+  .table1 td:hover{
+    background-color: blue;
+    color: beige;
+    font-weight: 900;
+  }
+
+
+
+
+  .table2 th {
+    border: solid rgb(182, 90, 14);
+    background-color: aqua;
+  }
+
+  .table2 td {
+    border: solid black;
+    padding: 10px;
+  }
+
+  .table2 table {
+    border: solid;
+  }
+
+
+
+  .table2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+
+
+
+  .table2 th:hover{
+    background-color: rgb(128, 25, 25);
+    color: rgb(71, 43, 181);
+    font-size: large;
+  }
+
+
+
+  .table2 td:hover{
+    background-color: rgb(250, 252, 253);
+    color: rgb(8, 6, 6);
+    font-weight: 900;
+  }
+
+
+
+
+  .cxrili {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+
+  .BoloPaneli {
+    border: solid;
+    height: 300px;
+    background-color: blue;
+  }
+
+
+
+  .paneli {
+    border: solid 2px; 
+    background-color: blue;
+    
+
+  }
+
+
+  .coding {
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+   
+   
+    
+  }
+
+
+
+
+  .img3 {
+    display: flex;
+    justify-content: end;
+  }
+
+  .chamonatvali {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .chamonatvali2 {
+    margin-left: 200px;
+  }
+
+
+
+  
+
+
+
+
+
+ 
+
+  
