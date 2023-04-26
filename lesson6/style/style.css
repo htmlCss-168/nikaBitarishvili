@@ -99,6 +99,18 @@ th {
     color: blue;
     background-color: rgb(180, 128, 226);
 }
+.line1 {
+    cursor: pointer;
+}
+
+.line2 {
+    cursor: pointer;
+}
+
+.line3 {
+
+    cursor: pointer;
+}
 
 .line3:active {
 background-color: brown;
@@ -158,4 +170,9 @@ color: black;
 
 .cont {
     text-align: center;
+}
+
+
+.shep button {
+    cursor: pointer;
 }

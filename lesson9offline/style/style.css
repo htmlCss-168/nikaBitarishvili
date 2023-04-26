@@ -1,0 +1,208 @@
+header nav a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: blue;
+    font-size: 20px;
+}
+
+header nav {
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+.quickLinks a{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.copyRight {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.socials a {
+display: block;
+text-decoration: none;
+margin-top: 10px;
+}
+
+
+.footercontent {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+section  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+section article {
+    width: 30%;
+}
+
+.line {
+   padding: 1px;
+   background-color: black;
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+
+
+p {
+    color: brown;
+}
+
+
+.quicklinks {
+    background-color: blue;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+
+.socials {
+    background-color: rgb(0, 238, 255);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+/* MOBILE MODE  */
+@media (max-width: 480px) {
+    header nav a {
+        font-size: 12px;
+    }
+
+    header nav a:hover {
+        font-size: 16px;
+    }
+
+    section {
+        display: block;
+    }
+
+    p {
+        color: aqua;
+    }
+    
+    .footercontent {
+        display: block;
+    }
+
+    .socials {
+        text-align: center;}
+
+    
+
+    
+
+}
+
+
+
+
+
+
+/* TABLET MODE  */
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    header nav a {
+        font-size: 12px;
+    }
+
+    header nav a:hover {
+        font-size: 16px;
+    }
+
+    section {
+        display: block;
+    }
+
+    p {
+        color: aqua;
+    }
+    
+    .footercontent {
+        display: block;
+    }
+
+    .socials {
+            text-align: center; }
+
+}
+
+
+
+
+/* desktop */
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    header nav a {
+        font-size: 12px;
+    }
+
+    header nav a:hover {
+        font-size: 16px;
+    }
+
+    section {
+        display: block;
+    }
+
+    p {
+        color: aqua;
+    }
+    
+    .footercontent {
+        display: block;
+    }
+
+    .socials {
+            text-align: center; }
+
+}
+
+
+
+/* large desktop mode */
+
+
+@media (min-width: 1201px) {}
+
+
+

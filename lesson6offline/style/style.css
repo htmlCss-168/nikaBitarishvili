@@ -1,0 +1,99 @@
+#nik {
+    text-align: center;
+}
+
+.navMenu {
+
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(154,126,65,1) 100%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10%;
+    width: 400px;
+}
+
+.navMenu a {
+    color: white;
+    text-decoration: dashed;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.naviMenuJustifier {
+
+/* background-color: aqua; */
+/* width: 50%; */
+/* margin-left: 35%;    დაცენტრირება */
+display: flex;
+justify-content: center; 
+/* დაცენტრირება */
+
+}
+
+
+.content {
+    text-align: center;
+}
+
+
+.feedback input{
+    padding: 10px;
+    border-radius: 10%;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(65,154,139,1) 100%);
+}
+
+.feedback button{
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+
+
+.feedback button:hover {
+    background-color: rgb(220, 105, 105);
+/* კურსორის მიტანისას ფერს იცვლის */
+
+
+}
+
+.feedback input::placeholder {
+    color: azure;
+}
+/* } სერჩში რა ტექსტიც არის უკვე დაწერილი იმის ფერი */
+
+
+.feedback input:hover::placeholder {
+    color: rgb(214, 74, 74);
+}
+/* სერჩში ნაწერის ფერის შეცვლა კურსორის მიტანისას */
+
+
+.feedback button:active {
+    background-color: rgb(95, 5, 5);
+}
+
+/* სუბმითს რო დააჭერ ფერს იცვლის */
+
+
+.feedback input:focus {
+    color: black;
+}
+/* სერჩში ნაწერის ფერი */
+
+
+
+
+.feedback input:visited {
+    color: black;
+}
+
+
+.navMenu a:hover {
+    color: rgb(131, 75, 75);
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
