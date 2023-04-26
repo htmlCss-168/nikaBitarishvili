@@ -1,0 +1,122 @@
+.navmenu a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    color: rgb(15, 9, 9);
+    text-align: center;
+}
+
+.navmenu a:hover {
+    color: rgb(245, 2, 2);
+    background-color: rgb(31, 7, 118);
+    font-size: 20px;
+    border-radius: 15%;
+}
+.navmenu {
+    background-color: rgb(196, 14, 14);
+    border-radius: 20px;
+    height: 40px;
+    width: 600px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: rgb(39, 17, 203);
+}
+
+
+.gif {
+    background-color: rgb(129, 7, 7);
+    /* width: 100px; */
+    height: 50px;
+    animation-name:colorchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes colorchange {
+    0% {background-color: rgb(34, 54, 164);}
+    20% {background-color: rgb(196, 14, 14);}
+    40% {background-color: rgb(30, 19, 179);}
+    60% {background-color: rgb(210, 15, 38);}
+    80% {background-color: rgb(23, 15, 178);}
+    100% {background-color: rgb(192, 13, 13);}
+}
+
+
+
+.striqoni {
+    text-align: center;
+    animation-name: mymove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+    color: red;
+   
+}
+
+
+@keyframes mymove {
+    0%   {right: 0px;  width: 50%;}
+    100% {left:  200px;  width: 100%;}
+  }
+
+
+  section {
+    display: flex;
+    text-align: center;
+
+  }
+
+  section img:hover {
+    width: 200px;
+    height: 300px;
+    transform: rotate(20deg);
+    border-radius: 30%;
+    
+  }
+
+
+
+  section img {
+    border-radius: 10%;
+   
+  }
+
+
+  .satauri {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    animation-name:satauri;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    
+  }
+
+
+
+  @keyframes satauri {
+    0% {color: rgb(34, 54, 164);}
+    20% {color: rgb(196, 14, 14);}
+    40% {color: rgb(30, 19, 179);}
+    60% {clor: rgb(210, 15, 38);}
+    80% {color: rgb(23, 15, 178);}
+    100% {color: rgb(192, 13, 13);}
+  }
+
+
+
+
+
+
