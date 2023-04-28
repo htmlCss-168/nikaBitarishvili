@@ -1,0 +1,168 @@
+.navigation {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 15px;
+    background-color: rgb(51, 49, 47);
+    column-gap: 10px;
+    row-gap: 10px;
+    border-radius: 10px;
+    color: rgb(224, 224, 229);
+    text-align: center;
+}
+
+
+.navigation .navigation1::first-letter {
+    font-size: 20px;
+    color: rgb(225, 15, 15);
+}
+
+
+.navigation .navigation1:hover {
+    font-size: 20px;
+    background-color: rgb(9, 10, 10);
+    border-radius: 10px;
+}
+
+
+.navigation .avtorizacia .navigation1:hover {
+    font-size: 20px;
+    background-color: rgb(36, 113, 113);
+    border-radius: 10px;   
+}
+
+
+
+.image1 {
+    border-radius: 10px;
+}
+
+
+.avtorizacia {
+    padding-left: 50px;
+}
+
+
+.news {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.news p::first-line{
+    color: blue;
+    font-size: large;
+    font-weight: 700;
+
+}
+
+
+.news img {
+    border-radius: 10px;
+    border: solid red;
+}
+
+
+.news img:hover {
+    width: 300px;
+    border: dashed blue;
+}
+
+
+.maintable {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: brown;
+}
+
+
+
+table {
+    border: solid rgb(15, 23, 38);
+    text-align: center;
+    background-color: rgb(181, 181, 193);
+    justify-content: center;
+    
+}
+
+
+tr {
+    border: solid rgb(27, 35, 50);
+    text-align: center;
+    color: rgb(229, 12, 12);
+}
+
+
+
+th {
+    border: solid rgb(26, 34, 50);
+    text-align: center;
+}
+
+tr:hover {
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+.line1 {
+    background-color: brown;
+    color: black;
+}
+
+.line1:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+.line2:hover {
+    background-color: green;
+    color: rgb(20, 14, 14);
+}
+
+
+
+.foot1 {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(12, 12, 245, 0.448);
+    border-radius: 15px;
+    color: rgb(18, 19, 21);
+    text-align: center;
+   
+}
+
+
+.foot2 {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(12, 12, 245, 0.448);
+    color: rgb(18, 19, 21);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.foot3 {
+    font-size: 15px;
+    
+}
+
+.foot3 a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+body {
+    background-color: rgba(7, 244, 244, 0.44);
+}
+
+
+
+
+
