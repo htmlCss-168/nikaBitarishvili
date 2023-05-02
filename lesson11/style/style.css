@@ -1,0 +1,195 @@
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+    
+}
+
+.nav3 a{
+    text-decoration: none;
+    margin: 4px;
+    margin-top: 20px;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: rgb(10, 12, 11);
+    padding: 6px;
+    text-align: center;
+   
+    
+    
+}
+
+
+
+.nav3 {
+    padding-top: 15px;
+}
+
+.nav2 a {
+    font-size: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+.nav3 a:hover{
+    border-radius: 40px;
+    color: black;
+    background-color: rgb(87, 195, 195);
+    transition: background-color 1.5s; color 1.5s;
+    font-size: 19px;
+    
+}
+
+#soc {
+    display: block;
+}
+
+
+.img2 {
+    position: fixed;
+    top: 250px;
+}
+
+
+.img2 img:hover {
+    margin-left: 15px;
+    width: 40px;   
+    transition: margin-left 1s;
+    cursor: pointer;
+    
+    
+}
+
+
+.img2 img {
+    margin-top: 15px;
+}
+
+
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+
+#img img {
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+
+#img {
+    margin-left: 50px;
+    text-align: center;
+}
+
+
+#img img:hover {
+    width: 260px;
+    transition: width 2s;
+    cursor: pointer;
+}
+
+
+#img h1:hover {
+    border:solid black 2px ;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aqua;
+    transition: background-color 2s; 
+    
+}
+
+
+.company a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.company h3 {
+    margin-left: 20px;
+}
+
+.services a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+
+
+.account a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+
+.courses a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+
+.footdiv {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(40, 40, 119);
+    /* text-align: center; */
+    border-radius: 10px;
+    height: 25%;
+    color: aliceblue;
+}
+
+
+.user input {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    background-color: rgb(103, 191, 213);
+    border-radius: 20px;
+    color: rgb(12, 12, 12);
+    
+}
+
+
+
+label {
+    text-align: center;
+    margin-left: 55px;
+    color: aqua;
+}
+
+
+#submit {
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.user {
+    margin-top: 20px;
+}
+
+
+#submit:hover {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+
